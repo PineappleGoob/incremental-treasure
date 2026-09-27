@@ -1,0 +1,1 @@
+holewalls.y = holewalls.y - (global.depth *3)

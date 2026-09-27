@@ -13,4 +13,4 @@ global.cshovel = "shit shovel"
 global.orelist = ["Tree", "Bee", "ZaZa", "Methenphatemene"]
 global.orelistprob = [50,30,15,15]
 
-}
+}										
