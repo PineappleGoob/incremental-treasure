@@ -1,2 +1,9 @@
 image_speed = 0
 global.mining = true
+minedvalue = 0
+text_y = -440
+text_y_speed = 10
+text_y2 = -440
+journalshow = 0
+textleft = false
+textdraw = false

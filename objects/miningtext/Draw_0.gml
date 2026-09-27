@@ -11,6 +11,9 @@ if (string(room) == "ref room MilkRoom"){
 draw_text_transformed(300,220,minevalues_text,2,2,0)
 }
 
+
+
+
 draw_text(15,70,minevalue_text)
 draw_text(15,90,minedepth_text)
 }

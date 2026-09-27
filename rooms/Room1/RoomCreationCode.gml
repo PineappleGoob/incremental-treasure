@@ -6,7 +6,7 @@ global.dollars = 0 //amount of money from selling ores
 global.depth = 0 //depth of mine, higher depth, higher value
 global.depthlevel = 1 //based on depth what level of value is rn.
 global.pickaxespeed = 1 //checks how far down in depth each click goes
-global.packsize = 10 //backpack
+global.packsize = 20 //backpack
 global.storedores = ds_list_create() //ores currently stored in backpac
 global.cshovel = "shit shovel"
 
