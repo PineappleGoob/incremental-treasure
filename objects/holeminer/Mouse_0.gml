@@ -7,7 +7,7 @@ global.depth = global.depth + global.pickaxespeed;
 minedvalue = irandom(4*global.depthlevel) + 1;
 global.minevalue = global.minevalue + minedvalue;
 journalshow = irandom(1)
-
+audio_play_sound(minesound,150,false);
 if (journalshow = 1) {
 instance_create_depth(100, 10, -100, journal1);
 }
