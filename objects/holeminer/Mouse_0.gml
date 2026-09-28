@@ -1,12 +1,12 @@
 if (global.mining == true && global.packsize >= global.minevalue) {
 
 
-holewalls.y = holewalls.y - (global.depth * 1)
+holewalls.y = holewalls.y - (1+ (global.depth * 0.06))
 global.mined = global.mined + 1;
 global.depth = global.depth + global.pickaxespeed;
 minedvalue = irandom(4*global.depthlevel) + 1;
 global.minevalue = global.minevalue + minedvalue;
-journalshow = irandom(1)
+journalshow = irandom(1000)
 audio_play_sound(minesound,150,false);
 if (journalshow = 1) {
 instance_create_depth(100, 10, -100, journal1);

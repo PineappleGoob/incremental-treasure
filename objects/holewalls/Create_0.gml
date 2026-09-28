@@ -1,1 +1,2 @@
-holewalls.y = holewalls.y - (global.depth *3)
+holewalls.y = global.holewally
+show_debug_message(holewalls.y)
